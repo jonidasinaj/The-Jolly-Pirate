@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author J
+ * @author Jonida
  */
 public class TheJollyPirate {
 
@@ -19,12 +19,8 @@ public class TheJollyPirate {
     public static void main(String[] args) {
         // TODO code application logic here
         model.Member mem = new model.Member();
-        view.Console app = new view.Console();
-        
-        app.setVisible(true);
-        app.setSize(1000,1000);
-        app.setLocation(100,50);
-        app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        controller.User user = new controller.User();
+        user.play();
         
     }
     

@@ -7,7 +7,7 @@ package model;
 
 /**
  *
- * @author J
+ * @author Jonida
  */
 public class Boat {
     
